@@ -1,0 +1,292 @@
+[
+  {
+    "player_img": "https://i.ibb.co.com/Hf7q1gnz/2c31015d1d3df874992d5f90c4d9c1ab.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "rating": 9.5,
+    "player_role": "All-Rounder",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Left-arm orthodox spin",
+    "price": "BDT 70 Lakhs"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/tTMXV01z/gettyimages-1241798654-612x612.jpg",
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "rating": 9.0,
+    "player_role": "Batsman",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "None",
+    "price": "BDT 60 Lakhs"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "rating": 8.8,
+    "player_role": "Bowler",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Left-arm fast-medium",
+    "price": "BDT 65 Lakhs"
+  },
+  {
+    "player_img": "https://i.ibb.co.com/qL1Z3GHT/download-1.jpg",
+    "name": "Liton Das",
+    "country": "Bangladesh",
+    "rating": 8.7,
+    "player_role": "Wicketkeeper-Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "None",
+    "price": "BDT 55 Lakhs"
+  },
+  {
+    "player_img": "https://example.com/img/miraj.jpg",
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "rating": 8.6,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm off break",
+    "price": "BDT 50 Lakhs"
+  },
+  {
+    "player_img": "https://example.com/img/afif.jpg",
+    "name": "Afif Hossain",
+    "country": "Bangladesh",
+    "rating": 8.2,
+    "player_role": "All-Rounder",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Off break",
+    "price": "BDT 45 Lakhs"
+  },
+  {
+    "player_img": "https://example.com/img/taskin.jpg",
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "rating": 8.4,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm fast",
+    "price": "BDT 52 Lakhs"
+  },
+  {
+    "player_img": "https://example.com/img/mahmudullah.jpg",
+    "name": "Mahmudullah",
+    "country": "Bangladesh",
+    "rating": 8.5,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "BDT 48 Lakhs"
+  },
+  {
+    "player_img": "https://example.com/img/andre.jpg",
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "rating": 9.3,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm fast",
+    "price": "USD 120,000"
+  },
+  {
+    "player_img": "https://example.com/img/pollard.jpg",
+    "name": "Kieron Pollard",
+    "country": "West Indies",
+    "rating": 9.1,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm medium",
+    "price": "USD 110,000"
+  },
+  {
+    "player_img": "https://example.com/img/faf.jpg",
+    "name": "Faf du Plessis",
+    "country": "South Africa",
+    "rating": 9.0,
+    "player_role": "Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Leg break",
+    "price": "USD 100,000"
+  },
+  {
+    "player_img": "https://example.com/img/rashid.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "rating": 9.6,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Leg break googly",
+    "price": "USD 130,000"
+  },
+  {
+    "player_img": "https://example.com/img/nabi.jpg",
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "rating": 8.9,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 95,000"
+  },
+  {
+    "player_img": "https://example.com/img/thisara.jpg",
+    "name": "Thisara Perera",
+    "country": "Sri Lanka",
+    "rating": 8.8,
+    "player_role": "All-Rounder",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Right-arm medium-fast",
+    "price": "USD 90,000"
+  },
+  {
+    "player_img": "https://example.com/img/wanindu.jpg",
+    "name": "Wanindu Hasaranga",
+    "country": "Sri Lanka",
+    "rating": 9.2,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Leg break",
+    "price": "USD 115,000"
+  },
+  {
+    "player_img": "https://example.com/img/alzarri.jpg",
+    "name": "Alzarri Joseph",
+    "country": "West Indies",
+    "rating": 8.7,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm fast",
+    "price": "USD 85,000"
+  },
+  {
+    "player_img": "https://example.com/img/finch.jpg",
+    "name": "Aaron Finch",
+    "country": "Australia",
+    "rating": 8.9,
+    "player_role": "Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 105,000"
+  },
+  {
+    "player_img": "https://example.com/img/warner.jpg",
+    "name": "David Warner",
+    "country": "Australia",
+    "rating": 9.4,
+    "player_role": "Batsman",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Leg break",
+    "price": "USD 140,000"
+  },
+  {
+    "player_img": "https://example.com/img/morgan.jpg",
+    "name": "Eoin Morgan",
+    "country": "England",
+    "rating": 8.6,
+    "player_role": "Batsman",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "None",
+    "price": "USD 90,000"
+  },
+  {
+    "player_img": "https://example.com/img/butler.jpg",
+    "name": "Jos Buttler",
+    "country": "England",
+    "rating": 9.3,
+    "player_role": "Wicketkeeper-Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "None",
+    "price": "USD 135,000"
+  },
+  {
+    "player_img": "https://example.com/img/malan.jpg",
+    "name": "Dawid Malan",
+    "country": "England",
+    "rating": 8.8,
+    "player_role": "Batsman",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 88,000"
+  },
+  {
+    "player_img": "https://example.com/img/paul.jpg",
+    "name": "Paul Stirling",
+    "country": "Ireland",
+    "rating": 8.4,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 75,000"
+  },
+  {
+    "player_img": "https://example.com/img/sohail.jpg",
+    "name": "Sohail Tanvir",
+    "country": "Pakistan",
+    "rating": 8.3,
+    "player_role": "Bowler",
+    "batting_style": "Left-handed bat",
+    "bowling_style": "Left-arm fast",
+    "price": "USD 70,000"
+  },
+  {
+    "player_img": "https://example.com/img/shadab.jpg",
+    "name": "Shadab Khan",
+    "country": "Pakistan",
+    "rating": 8.9,
+    "player_role": "All-Rounder",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Leg break",
+    "price": "USD 100,000"
+  },
+  {
+    "player_img": "https://example.com/img/hasanali.jpg",
+    "name": "Hasan Ali",
+    "country": "Pakistan",
+    "rating": 8.2,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": "USD 78,000"
+  },
+  {
+    "player_img": "https://example.com/img/mujeeb.jpg",
+    "name": "Mujeeb Ur Rahman",
+    "country": "Afghanistan",
+    "rating": 8.8,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 92,000"
+  },
+  {
+    "player_img": "https://example.com/img/smith.jpg",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "rating": 9.1,
+    "player_role": "Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Leg break",
+    "price": "USD 125,000"
+  },
+  {
+    "player_img": "https://example.com/img/southee.jpg",
+    "name": "Tim Southee",
+    "country": "New Zealand",
+    "rating": 8.7,
+    "player_role": "Bowler",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Right-arm fast-medium",
+    "price": "USD 85,000"
+  },
+  {
+    "player_img": "https://example.com/img/guptill.jpg",
+    "name": "Martin Guptill",
+    "country": "New Zealand",
+    "rating": 8.9,
+    "player_role": "Batsman",
+    "batting_style": "Right-handed bat",
+    "bowling_style": "Off break",
+    "price": "USD 98,000"
+  }
+]
