@@ -19,7 +19,7 @@ const AvaiblePlayer = ({ PlayerData }) => {
             <img src={PlayerIcon} alt="" />
             <h2 className="card-title">{player.name}</h2>
           </div>
-          <div className="mt-4 flex justify-between p-2 border-b-gray-300 border-b-1">
+          <div className="mt-4 flex justify-between p-2 border-b-gray-300 border-b">
             <div className="flex gap-4 items-center">
               <img src={FlagIcon} alt="" />
               <p>{player.country}</p>
