@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import "./App.css";
-
+import { useState } from "react";
 import AvaiblePlayer from "./components/AvaiablePlayer/AvaiblePlayer";
 import NavBar from "./components/NavBar/NavBar";
 import SelectedPlayer from "./components/SelectedPlayer/SelectedPlayer";
@@ -11,15 +11,38 @@ const FetchPlayer = async () => {
 };
 function App() {
   const PlayerData = FetchPlayer();
+  const [toggle, setToggle] = useState(true);
   return (
     <>
       <NavBar></NavBar>
-      <Suspense
-        fallback={<span className="loading loading-spinner loading-xl"></span>}
-      >
-        <AvaiblePlayer PlayerData={PlayerData}></AvaiblePlayer>
-      </Suspense>
-      <SelectedPlayer></SelectedPlayer>
+      <div className="max-w-[1200px] mx-auto flex justify-between items-center">
+        <h1 className="font-bold text-2xl">Available Players</h1>
+        <div className="flex">
+          <button
+            onClick={() => setToggle(true)}
+            className={`${toggle ? "bg-[#E7FE29]" : ""} cursor-pointer px-4 py-3 border border-r-0 border-gray-300 rounded-l-2xl`}
+          >
+            Available
+          </button>
+          <button
+            onClick={() => setToggle(false)}
+            className={`${toggle ? "" : "bg-[#E7FE29]"} cursor-pointer px-4 py-3 border border-l-0 border-gray-300 rounded-r-2xl`}
+          >
+            Selected<span>(0)</span>
+          </button>
+        </div>
+      </div>
+      {toggle ? (
+        <Suspense
+          fallback={
+            <span className="loading loading-spinner loading-xl"></span>
+          }
+        >
+          <AvaiblePlayer PlayerData={PlayerData}></AvaiblePlayer>
+        </Suspense>
+      ) : (
+        <SelectedPlayer></SelectedPlayer>
+      )}
     </>
   );
 }
