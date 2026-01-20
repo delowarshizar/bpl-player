@@ -9,8 +9,8 @@ const FetchPlayer = async () => {
   const res = await fetch("./player.json");
   return res.json();
 };
+const PlayerData = FetchPlayer();
 function App() {
-  const PlayerData = FetchPlayer();
   const [toggle, setToggle] = useState(true);
   return (
     <>
