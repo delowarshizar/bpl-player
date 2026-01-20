@@ -16,7 +16,11 @@ function App() {
     <>
       <NavBar></NavBar>
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
-        <h1 className="font-bold text-2xl">Available Players</h1>
+        {toggle ? (
+          <h1 className="font-bold text-2xl">Available Players</h1>
+        ) : (
+          <h1 className="font-bold text-2xl">Selected Players</h1>
+        )}
         <div className="flex">
           <button
             onClick={() => setToggle(true)}

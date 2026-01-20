@@ -40,7 +40,7 @@
     "price": "BDT 55 Lakhs"
   },
   {
-    "player_img": "https://example.com/img/miraj.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Mehidy Hasan Miraz",
     "country": "Bangladesh",
     "rating": 8.6,
@@ -50,7 +50,7 @@
     "price": "BDT 50 Lakhs"
   },
   {
-    "player_img": "https://example.com/img/afif.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Afif Hossain",
     "country": "Bangladesh",
     "rating": 8.2,
@@ -60,7 +60,7 @@
     "price": "BDT 45 Lakhs"
   },
   {
-    "player_img": "https://example.com/img/taskin.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Taskin Ahmed",
     "country": "Bangladesh",
     "rating": 8.4,
@@ -70,7 +70,7 @@
     "price": "BDT 52 Lakhs"
   },
   {
-    "player_img": "https://example.com/img/mahmudullah.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Mahmudullah",
     "country": "Bangladesh",
     "rating": 8.5,
@@ -80,7 +80,7 @@
     "price": "BDT 48 Lakhs"
   },
   {
-    "player_img": "https://example.com/img/andre.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Andre Russell",
     "country": "West Indies",
     "rating": 9.3,
@@ -90,7 +90,7 @@
     "price": "USD 120,000"
   },
   {
-    "player_img": "https://example.com/img/pollard.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Kieron Pollard",
     "country": "West Indies",
     "rating": 9.1,
@@ -100,7 +100,7 @@
     "price": "USD 110,000"
   },
   {
-    "player_img": "https://example.com/img/faf.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Faf du Plessis",
     "country": "South Africa",
     "rating": 9.0,
@@ -110,7 +110,7 @@
     "price": "USD 100,000"
   },
   {
-    "player_img": "https://example.com/img/rashid.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Rashid Khan",
     "country": "Afghanistan",
     "rating": 9.6,
@@ -120,7 +120,7 @@
     "price": "USD 130,000"
   },
   {
-    "player_img": "https://example.com/img/nabi.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Mohammad Nabi",
     "country": "Afghanistan",
     "rating": 8.9,
@@ -130,7 +130,7 @@
     "price": "USD 95,000"
   },
   {
-    "player_img": "https://example.com/img/thisara.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Thisara Perera",
     "country": "Sri Lanka",
     "rating": 8.8,
@@ -140,7 +140,7 @@
     "price": "USD 90,000"
   },
   {
-    "player_img": "https://example.com/img/wanindu.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Wanindu Hasaranga",
     "country": "Sri Lanka",
     "rating": 9.2,
@@ -150,7 +150,7 @@
     "price": "USD 115,000"
   },
   {
-    "player_img": "https://example.com/img/alzarri.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Alzarri Joseph",
     "country": "West Indies",
     "rating": 8.7,
@@ -160,7 +160,7 @@
     "price": "USD 85,000"
   },
   {
-    "player_img": "https://example.com/img/finch.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Aaron Finch",
     "country": "Australia",
     "rating": 8.9,
@@ -170,7 +170,7 @@
     "price": "USD 105,000"
   },
   {
-    "player_img": "https://example.com/img/warner.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "David Warner",
     "country": "Australia",
     "rating": 9.4,
@@ -180,7 +180,7 @@
     "price": "USD 140,000"
   },
   {
-    "player_img": "https://example.com/img/morgan.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Eoin Morgan",
     "country": "England",
     "rating": 8.6,
@@ -190,7 +190,7 @@
     "price": "USD 90,000"
   },
   {
-    "player_img": "https://example.com/img/butler.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Jos Buttler",
     "country": "England",
     "rating": 9.3,
@@ -200,7 +200,7 @@
     "price": "USD 135,000"
   },
   {
-    "player_img": "https://example.com/img/malan.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Dawid Malan",
     "country": "England",
     "rating": 8.8,
@@ -210,7 +210,7 @@
     "price": "USD 88,000"
   },
   {
-    "player_img": "https://example.com/img/paul.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Paul Stirling",
     "country": "Ireland",
     "rating": 8.4,
@@ -220,7 +220,7 @@
     "price": "USD 75,000"
   },
   {
-    "player_img": "https://example.com/img/sohail.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Sohail Tanvir",
     "country": "Pakistan",
     "rating": 8.3,
@@ -230,7 +230,7 @@
     "price": "USD 70,000"
   },
   {
-    "player_img": "https://example.com/img/shadab.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Shadab Khan",
     "country": "Pakistan",
     "rating": 8.9,
@@ -240,7 +240,7 @@
     "price": "USD 100,000"
   },
   {
-    "player_img": "https://example.com/img/hasanali.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Hasan Ali",
     "country": "Pakistan",
     "rating": 8.2,
@@ -250,7 +250,7 @@
     "price": "USD 78,000"
   },
   {
-    "player_img": "https://example.com/img/mujeeb.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Mujeeb Ur Rahman",
     "country": "Afghanistan",
     "rating": 8.8,
@@ -260,7 +260,7 @@
     "price": "USD 92,000"
   },
   {
-    "player_img": "https://example.com/img/smith.jpg",
+    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
     "name": "Steve Smith",
     "country": "Australia",
     "rating": 9.1,
@@ -268,25 +268,5 @@
     "batting_style": "Right-handed bat",
     "bowling_style": "Leg break",
     "price": "USD 125,000"
-  },
-  {
-    "player_img": "https://example.com/img/southee.jpg",
-    "name": "Tim Southee",
-    "country": "New Zealand",
-    "rating": 8.7,
-    "player_role": "Bowler",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Right-arm fast-medium",
-    "price": "USD 85,000"
-  },
-  {
-    "player_img": "https://example.com/img/guptill.jpg",
-    "name": "Martin Guptill",
-    "country": "New Zealand",
-    "rating": 8.9,
-    "player_role": "Batsman",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Off break",
-    "price": "USD 98,000"
   }
 ]
