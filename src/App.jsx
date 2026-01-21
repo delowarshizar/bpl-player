@@ -11,10 +11,11 @@ const FetchPlayer = async () => {
 };
 const PlayerData = FetchPlayer();
 function App() {
+  const [AvailableBalance, setAvailableBalance] = useState(600000);
   const [toggle, setToggle] = useState(true);
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar AvailableBalance={AvailableBalance}></NavBar>
       <div className="max-w-[1200px] mx-auto flex justify-between items-center">
         {toggle ? (
           <h1 className="font-bold text-2xl">Available Players</h1>
@@ -42,7 +43,11 @@ function App() {
             <span className="loading loading-spinner loading-xl"></span>
           }
         >
-          <AvaiblePlayer PlayerData={PlayerData}></AvaiblePlayer>
+          <AvaiblePlayer
+            PlayerData={PlayerData}
+            AvailableBalance={AvailableBalance}
+            setAvailableBalance={setAvailableBalance}
+          ></AvaiblePlayer>
         </Suspense>
       ) : (
         <SelectedPlayer></SelectedPlayer>

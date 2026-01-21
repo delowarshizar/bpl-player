@@ -7,7 +7,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Left-handed bat",
     "bowling_style": "Left-arm orthodox spin",
-    "price": "BDT 70 Lakhs"
+    "price": "65000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/tTMXV01z/gettyimages-1241798654-612x612.jpg",
@@ -17,7 +17,7 @@
     "player_role": "Batsman",
     "batting_style": "Left-handed bat",
     "bowling_style": "None",
-    "price": "BDT 60 Lakhs"
+    "price": "55000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -27,7 +27,7 @@
     "player_role": "Bowler",
     "batting_style": "Left-handed bat",
     "bowling_style": "Left-arm fast-medium",
-    "price": "BDT 65 Lakhs"
+    "price": "60000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/qL1Z3GHT/download-1.jpg",
@@ -37,7 +37,7 @@
     "player_role": "Wicketkeeper-Batsman",
     "batting_style": "Right-handed bat",
     "bowling_style": "None",
-    "price": "BDT 55 Lakhs"
+    "price": "50000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -47,7 +47,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Right-arm off break",
-    "price": "BDT 50 Lakhs"
+    "price": "45000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -57,7 +57,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Left-handed bat",
     "bowling_style": "Off break",
-    "price": "BDT 45 Lakhs"
+    "price": "40000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -67,7 +67,7 @@
     "player_role": "Bowler",
     "batting_style": "Right-handed bat",
     "bowling_style": "Right-arm fast",
-    "price": "BDT 52 Lakhs"
+    "price": "50000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -77,7 +77,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Off break",
-    "price": "BDT 48 Lakhs"
+    "price": "45000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -87,7 +87,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Right-arm fast",
-    "price": "USD 120,000"
+    "price": "120000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -97,7 +97,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Right-arm medium",
-    "price": "USD 110,000"
+    "price": "110000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -107,7 +107,7 @@
     "player_role": "Batsman",
     "batting_style": "Right-handed bat",
     "bowling_style": "Leg break",
-    "price": "USD 100,000"
+    "price": "100000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -117,7 +117,7 @@
     "player_role": "Bowler",
     "batting_style": "Right-handed bat",
     "bowling_style": "Leg break googly",
-    "price": "USD 130,000"
+    "price": "130000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -127,7 +127,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Off break",
-    "price": "USD 95,000"
+    "price": "95000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -137,7 +137,7 @@
     "player_role": "All-Rounder",
     "batting_style": "Left-handed bat",
     "bowling_style": "Right-arm medium-fast",
-    "price": "USD 90,000"
+    "price": "90000 USDT"
   },
   {
     "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
@@ -147,126 +147,6 @@
     "player_role": "All-Rounder",
     "batting_style": "Right-handed bat",
     "bowling_style": "Leg break",
-    "price": "USD 115,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Alzarri Joseph",
-    "country": "West Indies",
-    "rating": 8.7,
-    "player_role": "Bowler",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Right-arm fast",
-    "price": "USD 85,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Aaron Finch",
-    "country": "Australia",
-    "rating": 8.9,
-    "player_role": "Batsman",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Off break",
-    "price": "USD 105,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "David Warner",
-    "country": "Australia",
-    "rating": 9.4,
-    "player_role": "Batsman",
-    "batting_style": "Left-handed bat",
-    "bowling_style": "Leg break",
-    "price": "USD 140,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Eoin Morgan",
-    "country": "England",
-    "rating": 8.6,
-    "player_role": "Batsman",
-    "batting_style": "Left-handed bat",
-    "bowling_style": "None",
-    "price": "USD 90,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Jos Buttler",
-    "country": "England",
-    "rating": 9.3,
-    "player_role": "Wicketkeeper-Batsman",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "None",
-    "price": "USD 135,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Dawid Malan",
-    "country": "England",
-    "rating": 8.8,
-    "player_role": "Batsman",
-    "batting_style": "Left-handed bat",
-    "bowling_style": "Off break",
-    "price": "USD 88,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Paul Stirling",
-    "country": "Ireland",
-    "rating": 8.4,
-    "player_role": "All-Rounder",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Off break",
-    "price": "USD 75,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Sohail Tanvir",
-    "country": "Pakistan",
-    "rating": 8.3,
-    "player_role": "Bowler",
-    "batting_style": "Left-handed bat",
-    "bowling_style": "Left-arm fast",
-    "price": "USD 70,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Shadab Khan",
-    "country": "Pakistan",
-    "rating": 8.9,
-    "player_role": "All-Rounder",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Leg break",
-    "price": "USD 100,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Hasan Ali",
-    "country": "Pakistan",
-    "rating": 8.2,
-    "player_role": "Bowler",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Right-arm fast-medium",
-    "price": "USD 78,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Mujeeb Ur Rahman",
-    "country": "Afghanistan",
-    "rating": 8.8,
-    "player_role": "Bowler",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Off break",
-    "price": "USD 92,000"
-  },
-  {
-    "player_img": "https://i.ibb.co.com/6cjTF72X/download.jpg",
-    "name": "Steve Smith",
-    "country": "Australia",
-    "rating": 9.1,
-    "player_role": "Batsman",
-    "batting_style": "Right-handed bat",
-    "bowling_style": "Leg break",
-    "price": "USD 125,000"
+    "price": "115000 USDT"
   }
 ]

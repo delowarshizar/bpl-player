@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PlayerIcon from "../../assets/user1.png";
 import FlagIcon from "../../assets/report1.png";
-const PlayerCard = ({ player }) => {
+const PlayerCard = ({ player, AvailableBalance, setAvailableBalance }) => {
   const [Selected, setSelected] = useState(false);
   return (
     <div>
@@ -35,7 +35,12 @@ const PlayerCard = ({ player }) => {
         <div className="card-actions mt-4 flex px-2 items-center justify-between ">
           <span className="font-bold">Price: {player.price}</span>
           <button
-            onClick={() => setSelected(true)}
+            onClick={() => {
+              (setAvailableBalance(
+                AvailableBalance - player.price.split("USDT").join(""),
+              ),
+                setSelected(true));
+            }}
             disabled={Selected}
             className="btn "
           >
