@@ -3,6 +3,15 @@ import PlayerIcon from "../../assets/user1.png";
 import FlagIcon from "../../assets/report1.png";
 const PlayerCard = ({ player, AvailableBalance, setAvailableBalance }) => {
   const [Selected, setSelected] = useState(false);
+  const handlePrice = (player) => {
+    const playerPrice = player.price.split("USDT").join("");
+    if (AvailableBalance < playerPrice) {
+      alert("Not enough coin !");
+      return;
+    }
+    (setAvailableBalance(AvailableBalance - playerPrice), setSelected(true));
+  };
+
   return (
     <div>
       <div className="card bg-base-100 shadow-sm p-4 mt-5">
@@ -35,12 +44,7 @@ const PlayerCard = ({ player, AvailableBalance, setAvailableBalance }) => {
         <div className="card-actions mt-4 flex px-2 items-center justify-between ">
           <span className="font-bold">Price: {player.price}</span>
           <button
-            onClick={() => {
-              (setAvailableBalance(
-                AvailableBalance - player.price.split("USDT").join(""),
-              ),
-                setSelected(true));
-            }}
+            onClick={() => handlePrice(player)}
             disabled={Selected}
             className="btn "
           >

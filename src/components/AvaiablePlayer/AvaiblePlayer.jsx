@@ -1,6 +1,10 @@
 import React, { use } from "react";
 import PlayerCard from "../PlayerCard/PlayerCard";
-const AvaiblePlayer = ({ PlayerData, AvailableBalance, setAvailableBalance }) => {
+const AvaiblePlayer = ({
+  PlayerData,
+  AvailableBalance,
+  setAvailableBalance,
+}) => {
   const Players = use(PlayerData);
 
   return (

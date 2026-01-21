@@ -1,7 +1,7 @@
 import React from "react";
 import NavImg from "../../assets/logo.png";
 import CoinImg from "../../assets/DoubleDollar.png";
-const NavBar = ({AvailableBalance}) => {
+const NavBar = ({ AvailableBalance }) => {
   return (
     <div className="navbar max-w-[1200px] mx-auto">
       <div className="flex-1">
