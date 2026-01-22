@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PlayerIcon from "../../assets/user1.png";
 import FlagIcon from "../../assets/report1.png";
+import { toast } from "react-toastify";
 const PlayerCard = ({
   player,
   AvailableBalance,
@@ -12,11 +13,11 @@ const PlayerCard = ({
   const handlePrice = (player) => {
     const playerPrice = player.price.split("USDT").join("");
     if (AvailableBalance < playerPrice) {
-      alert("Not enough coin !");
+      toast("Not enough coin !");
       return;
     }
     if (BuyPlayers.length > 5) {
-      alert("max player limit reached");
+      toast("max player limit reached");
       return;
     }
 

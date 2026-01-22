@@ -4,6 +4,7 @@ import { useState } from "react";
 import AvaiblePlayer from "./components/AvaiablePlayer/AvaiblePlayer";
 import NavBar from "./components/NavBar/NavBar";
 import SelectedPlayer from "./components/SelectedPlayer/SelectedPlayer";
+import { ToastContainer } from "react-toastify";
 
 const FetchPlayer = async () => {
   const res = await fetch("./player.json");
@@ -14,6 +15,13 @@ function App() {
   const [AvailableBalance, setAvailableBalance] = useState(600000);
   const [toggle, setToggle] = useState(true);
   const [BuyPlayers, setBuyPlayers] = useState([]);
+  const removePlayer = (p) => {
+    const UpdatePlayer = BuyPlayers.filter((ply) => ply.name !== p.name);
+    setBuyPlayers(UpdatePlayer);
+    setAvailableBalance(
+      AvailableBalance + parseInt(p.price.split("USDT").join("")),
+    );
+  };
   return (
     <>
       <NavBar AvailableBalance={AvailableBalance}></NavBar>
@@ -21,7 +29,9 @@ function App() {
         {toggle ? (
           <h1 className="font-bold text-2xl">Available Players</h1>
         ) : (
-          <h1 className="font-bold text-2xl">Selected Players {BuyPlayers.length}/6</h1>
+          <h1 className="font-bold text-2xl">
+            Selected Players {BuyPlayers.length}/6
+          </h1>
         )}
         <div className="flex">
           <button
@@ -53,8 +63,12 @@ function App() {
           ></AvaiblePlayer>
         </Suspense>
       ) : (
-        <SelectedPlayer BuyPlayers={BuyPlayers}></SelectedPlayer>
+        <SelectedPlayer
+          removePlayer={removePlayer}
+          BuyPlayers={BuyPlayers}
+        ></SelectedPlayer>
       )}
+      <ToastContainer />
     </>
   );
 }

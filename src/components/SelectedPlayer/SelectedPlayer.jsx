@@ -1,11 +1,20 @@
 import React from "react";
 import SelectedCard from "../SelectedCard/SelectedCard";
-const SelectedPlayer = ({ BuyPlayers }) => {
+const SelectedPlayer = ({ BuyPlayers, removePlayer }) => {
   return (
     <div className="max-w-[1200px] mx-auto">
-      {BuyPlayers.map((players) => (
-        <SelectedCard players={players}></SelectedCard>
-      ))}
+      <div>
+        {BuyPlayers.map((players) => (
+          <SelectedCard
+            removePlayer={removePlayer}
+            players={players}
+          ></SelectedCard>
+        ))}
+      </div>
+
+      <button className="btn bg-[#E7FE29] my-3 rounded-xl">
+        Add More Players
+      </button>
     </div>
   );
 };
