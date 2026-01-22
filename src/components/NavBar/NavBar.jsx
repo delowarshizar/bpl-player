@@ -3,13 +3,13 @@ import NavImg from "../../assets/logo.png";
 import CoinImg from "../../assets/DoubleDollar.png";
 const NavBar = ({ AvailableBalance }) => {
   return (
-    <div className="navbar max-w-[1200px] mx-auto">
+    <div className="navbar max-w-[1200px] mx-auto ">
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">
           <img className="h-[60px] w-[60px]" src={NavImg} alt="" />
         </a>
       </div>
-      <div className="flex">
+      <div className="flex border-amber-200 border-2 rounded-2xl px-4 py-2">
         <div className="flex gap-3 items-center">
           <span>{AvailableBalance}</span>
           <span>Coin</span>

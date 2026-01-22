@@ -13,6 +13,7 @@ const PlayerData = FetchPlayer();
 function App() {
   const [AvailableBalance, setAvailableBalance] = useState(600000);
   const [toggle, setToggle] = useState(true);
+  const [BuyPlayers, setBuyPlayers] = useState([]);
   return (
     <>
       <NavBar AvailableBalance={AvailableBalance}></NavBar>
@@ -20,7 +21,7 @@ function App() {
         {toggle ? (
           <h1 className="font-bold text-2xl">Available Players</h1>
         ) : (
-          <h1 className="font-bold text-2xl">Selected Players</h1>
+          <h1 className="font-bold text-2xl">Selected Players {BuyPlayers.length}/6</h1>
         )}
         <div className="flex">
           <button
@@ -33,7 +34,7 @@ function App() {
             onClick={() => setToggle(false)}
             className={`${toggle ? "" : "bg-[#E7FE29]"} cursor-pointer px-4 py-3 border border-l-0 border-gray-300 rounded-r-2xl`}
           >
-            Selected<span>(0)</span>
+            Selected<span>({BuyPlayers.length}/6)</span>
           </button>
         </div>
       </div>
@@ -47,10 +48,12 @@ function App() {
             PlayerData={PlayerData}
             AvailableBalance={AvailableBalance}
             setAvailableBalance={setAvailableBalance}
+            BuyPlayers={BuyPlayers}
+            setBuyPlayers={setBuyPlayers}
           ></AvaiblePlayer>
         </Suspense>
       ) : (
-        <SelectedPlayer></SelectedPlayer>
+        <SelectedPlayer BuyPlayers={BuyPlayers}></SelectedPlayer>
       )}
     </>
   );

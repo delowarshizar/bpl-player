@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import PlayerIcon from "../../assets/user1.png";
 import FlagIcon from "../../assets/report1.png";
-const PlayerCard = ({ player, AvailableBalance, setAvailableBalance }) => {
+const PlayerCard = ({
+  player,
+  AvailableBalance,
+  setAvailableBalance,
+  BuyPlayers,
+  setBuyPlayers,
+}) => {
   const [Selected, setSelected] = useState(false);
   const handlePrice = (player) => {
     const playerPrice = player.price.split("USDT").join("");
@@ -9,7 +15,14 @@ const PlayerCard = ({ player, AvailableBalance, setAvailableBalance }) => {
       alert("Not enough coin !");
       return;
     }
-    (setAvailableBalance(AvailableBalance - playerPrice), setSelected(true));
+    if (BuyPlayers.length > 5) {
+      alert("max player limit reached");
+      return;
+    }
+
+    (setAvailableBalance(AvailableBalance - playerPrice),
+      setSelected(true),
+      setBuyPlayers([...BuyPlayers, player]));
   };
 
   return (

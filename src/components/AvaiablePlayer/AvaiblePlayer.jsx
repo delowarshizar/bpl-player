@@ -4,6 +4,8 @@ const AvaiblePlayer = ({
   PlayerData,
   AvailableBalance,
   setAvailableBalance,
+  BuyPlayers,
+  setBuyPlayers,
 }) => {
   const Players = use(PlayerData);
 
@@ -14,6 +16,8 @@ const AvaiblePlayer = ({
           player={player}
           AvailableBalance={AvailableBalance}
           setAvailableBalance={setAvailableBalance}
+          BuyPlayers={BuyPlayers}
+          setBuyPlayers={setBuyPlayers}
         ></PlayerCard>
       ))}
     </div>

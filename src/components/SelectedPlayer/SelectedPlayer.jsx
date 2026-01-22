@@ -1,9 +1,11 @@
 import React from "react";
-
-const SelectedPlayer = () => {
+import SelectedCard from "../SelectedCard/SelectedCard";
+const SelectedPlayer = ({ BuyPlayers }) => {
   return (
     <div className="max-w-[1200px] mx-auto">
-      <h1>Selected Player</h1>
+      {BuyPlayers.map((players) => (
+        <SelectedCard players={players}></SelectedCard>
+      ))}
     </div>
   );
 };
