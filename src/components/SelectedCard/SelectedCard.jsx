@@ -18,7 +18,6 @@ const SelectedCard = ({ players, removePlayer }) => {
           <img className="cursor-pointer" src={DelIcon} alt="" />
         </div>
       </div>
-     
     </div>
   );
 };
