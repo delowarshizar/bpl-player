@@ -66,6 +66,8 @@ function App() {
         <SelectedPlayer
           removePlayer={removePlayer}
           BuyPlayers={BuyPlayers}
+          setToggle={setToggle}
+          
         ></SelectedPlayer>
       )}
       <ToastContainer />
